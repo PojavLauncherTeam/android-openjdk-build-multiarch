@@ -60,6 +60,8 @@ export BUILD_IOS=1 # only when targeting iOS, default is 0 (target Android)
 
 export BUILD_FREETYPE_VERSION=[2.6.2/.../2.10.4] # default: 2.10.4
 export JDK_DEBUG_LEVEL=[release/fastdebug/debug] # default: release
+export TARGET_JDK=[aarch64/aarch32/x86/x86_64] # need set
+export TARGET=aarch64-linux-android
 export JVM_VARIANTS=[client/server] # default: client (aarch32), server (other architectures)
 
 # Setup NDK, run once (Android only)
